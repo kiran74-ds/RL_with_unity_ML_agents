@@ -1,4 +1,4 @@
-![](https://github.com/kiran74-ds/RL_with_unity_ML_agents/tree/master/DQN/Banana_ML_agent.gif)
+![Alt text](https://github.com/kiran74-ds/RL_with_unity_ML_agents/tree/master/DQN/Banana_ML_agent.gif)
 Project Details
 
 The README describes the the project environment details (i.e., the state and action spaces, and when the environment is considered solved).
