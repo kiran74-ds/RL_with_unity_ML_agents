@@ -24,12 +24,12 @@ Create (and activate) a new environment with Python 3.6.
 Linux or Mac:
 ```
 conda create --name drl python=3.6
-source activate drlnd
+source activate drl
 ```
 Windows:
 ```
 conda create --name drl python=3.6 
-activate drlnd
+activate drl
 ```
 
 Clone the repository, and navigate to the python/ folder. Then, install several dependencies.
