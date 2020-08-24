@@ -1,4 +1,4 @@
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=ADBg3kUVS2w&feature=youtu.be)
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=ADBg3kUVS2w&feature=youtu.be)
 
 Project Details
 
