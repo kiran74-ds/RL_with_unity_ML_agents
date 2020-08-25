@@ -1,16 +1,33 @@
 
-Report
+### Deep Q-Networks Algorithms
 
-The submission includes a file in the root of the GitHub repository or zip file (one of Report.md, Report.ipynb, or Report.pdf) that provides a description of the implementation.
+Network Architecture
+```
+QNetwork(
+  (fc1): Linear(in_features=37, out_features=64, bias=True)
+  (fc2): Linear(in_features=64, out_features=64, bias=True)
+  (fc3): Linear(in_features=64, out_features=4, bias=True)
+)
+```
+Hyperperparameters Used:
 
-Learning Algorithm
+```
+BUFFER_SIZE = int(1e5)  # replay buffer size
+BATCH_SIZE = 64         # minibatch size
+GAMMA = 0.99            # discount factor
+TAU = 1e-3              # for soft update of target parameters
+LR = 1e-4               # learning rate 
+UPDATE_EVERY = 4        # how often to update the network
+```
 
-The report clearly describes the learning algorithm, along with the chosen hyperparameters. It also describes the model architectures for any neural networks.
+### Plot of Rewards
 
-Plot of Rewards
+Agent solved the enviroment in 700 episodes.
 
-A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. The submission reports the number of episodes needed to solve the environment.
 
-Ideas for Future Work
+### Ideas for Future Work
 
-The submission has concrete future ideas for improving the agent's performance.
+This model can be further improved by using Double DQN, Prioritized Experience Replay, Duelling DQN and Rainbow algorithms.
+
+
+
