@@ -2,13 +2,13 @@
 ### Deep Q-Networks Algorithms
 
 Network Architecture
-
+```
 QNetwork(
   (fc1): Linear(in_features=37, out_features=64, bias=True)
   (fc2): Linear(in_features=64, out_features=64, bias=True)
   (fc3): Linear(in_features=64, out_features=4, bias=True)
 )
-
+```
 Hyperperparameters Used:
 
 BUFFER_SIZE = int(1e5)  # replay buffer size
