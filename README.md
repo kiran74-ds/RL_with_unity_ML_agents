@@ -1,6 +1,13 @@
 # RL_with_unity_ML_agents
 Implementing Reinforcement Learning Algorithms to solve the Unity ML environments.
 
+Projects:
+
+#### 1. Value Based Methods 
+
+2. Policy Based Methods
+
+3. Multi agent Reinforcement Learning
 
 ### Dependencies
 
