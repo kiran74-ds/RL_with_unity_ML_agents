@@ -1,16 +1,19 @@
 
-Report
+### Deep Q-Networks Algorithms
 
-The submission includes a file in the root of the GitHub repository or zip file (one of Report.md, Report.ipynb, or Report.pdf) that provides a description of the implementation.
+Network Architecture
 
-Learning Algorithm
+Hyperperparameters Used
 
-The report clearly describes the learning algorithm, along with the chosen hyperparameters. It also describes the model architectures for any neural networks.
 
-Plot of Rewards
+### Plot of Rewards
 
-A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. The submission reports the number of episodes needed to solve the environment.
+Agent solved the enviroment in 700 episodes.
 
-Ideas for Future Work
 
-The submission has concrete future ideas for improving the agent's performance.
+### Ideas for Future Work
+
+This model can be further improved by using Double DQN, Prioritized Experience Replay, Duelling DQN and Rainbow algorithms.
+
+
+
