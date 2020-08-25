@@ -4,7 +4,7 @@ Implementing Reinforcement Learning Algorithms to solve the Unity ML environment
 ## Projects:
 
 #### 1. Value Based Methods - DQN
-<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/Banana_ML_agent.gif" width="400" height="300">
+<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/images/Banana_ML_agent.gif" width="400" height="300">
 
 #### 2. Policy Based Methods 
 
