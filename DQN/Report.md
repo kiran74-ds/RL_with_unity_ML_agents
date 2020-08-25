@@ -24,7 +24,7 @@ UPDATE_EVERY = 4        # how often to update the network
 
 Agent solved the enviroment in 700 episodes.
 
-<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/rewards.png" width=600, height=400>
+<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/images/rewards.png" width=600, height=400>
 
 ### Ideas for Future Work
 
