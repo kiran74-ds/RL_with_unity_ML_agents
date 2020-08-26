@@ -19,3 +19,8 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Dependenices
 
 Please follow the instructions mentioned in the main page 
+
+
+### Instructions
+
+To run the code, after sucessfully created virtual environment and kernel, open the jupyter notebook located at https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/code/Navigation.ipynb and follow the notebook.
