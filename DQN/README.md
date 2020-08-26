@@ -24,3 +24,11 @@ Please follow the instructions mentioned in the main page
 ### Instructions
 
 To run the code, after sucessfully created virtual environment and kernel, open the jupyter notebook located at https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/code/Navigation.ipynb and follow the notebook.
+
+```
+# instantiate the Agent class
+agent = Agent(state_size=state_size, action_size=action_size, seed=0)
+
+# Run the function dqn(),Agent starts learning here and returns the rewards for each episode
+scores = dqn(1000) #1000 here is number of episodes
+```
