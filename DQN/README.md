@@ -23,7 +23,12 @@ Please follow the instructions mentioned in the main page
 
 ### Instructions
 
-To run the code, after sucessfully created virtual environment and kernel, open the jupyter notebook located at https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/code/Navigation.ipynb and follow the notebook.
+Follow the below steps to run the code:
+
++ Create Virtual Environment, Install Packages and Create IPython Kernel as mentioned in the main Readme.md file
++ Open the jupyter notebook located at https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/code/Navigation.ipynb
++ Select the kernel that you just created
++ Follow the steps in the note book 
 
 ```
 # instantiate the Agent class
