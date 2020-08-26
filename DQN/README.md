@@ -30,5 +30,5 @@ To run the code, after sucessfully created virtual environment and kernel, open 
 agent = Agent(state_size=state_size, action_size=action_size, seed=0)
 
 # Run the function dqn(),Agent starts learning here and returns the rewards for each episode
-scores = dqn(1000) #1000 here is number of episodes
+scores = dqn(1000) #1000 is the number of episodes
 ```
