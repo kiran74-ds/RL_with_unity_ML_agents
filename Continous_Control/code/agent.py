@@ -8,17 +8,17 @@ import torch.nn.functional as F
 import torch.optim as optim
 from collections import deque, namedtuple
 
-LR_CRITIC = 1e-4 #critic learning rate
-LR_ACTOR = 1e-4 #actor learning rate
-GAMMA = 0.99 #discount factor
-WEIGHT_DECAY = 0 #L2 weight decay 
-TAU = 1e-3 #soft target update
-BUFFER_SIZE = int(1e6) #Size of buffer to train from a single step
-MINI_BATCH = 128 #Max length of memory.
+## Hyper parameters
+LR_CRITIC = 1e-4 
+LR_ACTOR = 1e-4 
+GAMMA = 0.99 
+WEIGHT_DECAY = 0 
+TAU = 1e-3 
+BUFFER_SIZE = int(1e6) 
+MINI_BATCH = 128 
 
-N_LEARN_UPDATES = 10         # number of learning updates
-UPDATE_TIME_STEPS = 20       # every n time step do update
-
+N_LEARN_UPDATES = 10         
+UPDATE_TIME_STEPS = 20       
 #Enable cuda if available
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
