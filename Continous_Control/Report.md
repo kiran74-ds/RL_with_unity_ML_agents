@@ -42,10 +42,9 @@ UPDATE_TIME_STEPS = 20
 
 Agent solved the enviroment in 60 episodes for single agent
 
-<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/Continous_Control/images/continous_control_single_agent.png" width=600, height=400>
+<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/Continous_Control/images/Continous_control_single_agent.png" width=600, height=400>
 
 Agent solved the enviroment in 200 episodes for multi agent
-
 
 <img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/Continous_Control/images/continous_control_multi_agent.png" width=600, height=400>
 
