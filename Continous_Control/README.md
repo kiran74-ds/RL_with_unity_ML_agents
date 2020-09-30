@@ -1,7 +1,7 @@
 ### Project Details:
 For this project, you will train a double-jointed arm can move to target locations
 
-<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/images/Banana_ML_agent.gif" width="600" height="400">
+<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/Continous_Control/images/single_agent.gif" width="600" height="400">
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
