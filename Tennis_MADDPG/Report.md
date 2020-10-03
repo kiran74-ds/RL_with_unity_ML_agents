@@ -55,6 +55,6 @@ This model can be further improved by
 + Tuning hyperparameters 
 + Running network for longer time 
 + Changing network Architecture to have different architecute for each agent 
-+ Implementing other algorithms such as PPO, A3C 
++ Implementing other algorithms such as PPO, TRPO, A3C.
 
 
