@@ -1,5 +1,9 @@
 
-### Deep Q-Networks Algorithms
+### Deep Determinstic Policy Gradient 
+
+To Solve any Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments in this scenario Tennis, we can use Multi Agent Deep Determinstic Policy Gradient(MADDPG).
+Multi-agent DDPG, extends DDPG into a multi-agent policy gradient algorithm where decentralized agents learn a centralized critic based on the observations and actions of all agents.
+The critic is augmented with extra information about the policies of other agents, while the actor only has access to local information. After training is completed, only the local actors are used at execution phase, acting in a decentralized manner.
 
 Network Architecture
 
