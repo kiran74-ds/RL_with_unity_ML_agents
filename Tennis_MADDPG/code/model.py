@@ -4,14 +4,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-def hidden_init(layer):
-    fan_in = layer.weight.data.size()[0]
-    lim = 1. / np.sqrt(fan_in)
-    return (-lim, lim)
-
 class Actor(nn.Module):
     """Estimates the policy deterministically using tanh activation for continuous action space"""
-    def __init__(self, state_size=33, action_size=4, seed=0, fc1=256, fc2=128):
+    def __init__(self, state_size=8, action_size=2, seed=0, fc1=256, fc2=128):
         """
         @Param:
         1. state_size: number of observations, i.e. brain.vector_action_space_size
@@ -42,14 +37,6 @@ class Actor(nn.Module):
         self.fc2.bias.data.uniform_(-f2, f2)
 
         self.fc3.weight.data.uniform_(-3e-3, 3e-3)
-
-#         self.fc1.weight.data.uniform_(*hidden_init(self.fc1))
-#         self.fc1.bias.data.uniform_(*hidden_init(self.fc1))
-
-#         self.fc2.weight.data.uniform_(*hidden_init(self.fc1))
-#         self.fc2.bias.data.uniform_(*hidden_init(self.fc1))
-
-#         self.fc3.weight.data.uniform_(-3e-3, 3e-3)
         
     def forward(self, state):
         """
@@ -100,14 +87,6 @@ class Critic(nn.Module):
         f3 = 3e-3
         self.fc3.weight.data.uniform_(-f3, f3)
         self.fc3.bias.data.uniform_(-f3, f3)
-
-#         self.fc1.weight.data.uniform_(*hidden_init(self.fc1))
-#         self.fc1.bias.data.uniform_(*hidden_init(self.fc1))
-
-#         self.fc2.weight.data.uniform_(*hidden_init(self.fc1))
-#         self.fc2.bias.data.uniform_(*hidden_init(self.fc1))
-
-#         self.fc3.weight.data.uniform_(-3e-3, 3e-3)
         
     def forward(self, state, action):
         """
