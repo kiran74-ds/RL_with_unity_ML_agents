@@ -36,3 +36,9 @@ Follow the below steps to run the code:
 # Run the function ddpg(),Agents starts learning here and returns the rewards which is maximum of these two agents rewards for each episode 
 scores = ddpg(30000) #3000 is the number of episodes
 ```
+
+For testing agent:
+
++ Create an Instance of agent
++ Load the saved model weights
++ Run the agent for few episodes and observe the performance
