@@ -7,8 +7,10 @@ Implementing Reinforcement Learning Algorithms to solve the Unity ML environment
 <img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/DQN/images/Banana_ML_agent.gif" width="400" height="300">
 
 #### 2. Policy Based Methods 
+<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/Continous_Control/images/multi_agent.gif" width="400" height="300">
 
 #### 3. Multi agent Reinforcement Learning 
+<img src="https://github.com/kiran74-ds/RL_with_unity_ML_agents/blob/master/Tennis_MADDPG/images/Tennis.gif" width="400" height="300">
 
 ### Dependencies
 
